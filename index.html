@@ -1,211 +1,1056 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AIMA Research Group | AI in Medical Applications</title>
-    <meta
-      name="description"
-      content="AIMA Research Group homepage for research, publications, team, and open positions."
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
-      <div class="container">
-        <a class="navbar-brand fw-semibold" href="#home">AIMA Research Group</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mainNav"
-          aria-controls="mainNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
-            <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-            <li class="nav-item"><a class="nav-link" href="#people">Team</a></li>
-            <li class="nav-item"><a class="nav-link" href="#teaching">Join Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>AIMA Research Group | AI in Medical Applications</title>
+  <meta name="description" content="AIMA Research Group homepage: research, publications, team, and opportunities.">
+  <meta name="keywords" content="AIMA, medical AI, machine learning, deep learning, medical imaging">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: SnapFolio
+  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
+  * Updated: Jul 21 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="#resume"><i class="bi bi-journal-text navicon"></i> Publications</a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
+          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Research</a></li>
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="#" class="google-scholar"><i class="bi bi-mortarboard"></i></a>
+        <a href="#" class="github"><i class="bi bi-github"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+      </div>
+
+      <div class="hero-content">
+
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>AI<span class="accent-text">MA</span></h1>
+                <h2>AIMA Research Group</h2>
+                <p class="lead">We work on <span class="typed" data-typed-items="Robust Medical AI, Foundation Models, Clinical Translation"></span></p>
+                <p class="description">Our lab develops principled machine learning methods for scientific discovery and real-world clinical impact, with emphasis on robustness, data efficiency, and generalization.</p>
+
+                <div class="hero-actions">
+                  <a href="#resume" class="btn btn-primary">View Publications</a>
+                  <a href="#contact" class="btn btn-outline">Join or Collaborate</a>
+                </div>
+
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-mortarboard"></i></a>
+                  <a href="#"><i class="bi bi-github"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background"></div>
+                  <img src="assets/img/profile/profile-2.webp" alt="AIMA Research Group" class="profile-image">
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-    </nav>
 
-    <header id="home" class="hero py-5 py-lg-6">
-      <div class="container">
-        <div class="row align-items-center g-4">
-          <div class="col-lg-8">
-            <p class="text-uppercase text-muted mb-2">AI in Medical Applications</p>
-            <h1 class="display-5 fw-bold mb-3">AIMA Research Group</h1>
-            <p class="lead mb-4">
-              Our lab focuses on advancing artificial intelligence methods for scientific
-              discovery and real-world impact. We develop principled machine learning and deep
-              learning approaches, with an emphasis on robust representation learning,
-              optimization, and generalization.
-            </p>
-            <div class="d-flex flex-wrap gap-2">
-              <a class="btn btn-primary" href="#publications">View Publications</a>
-              <a class="btn btn-outline-primary" href="#contact">Contact Us</a>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-image">
+                  <img src="assets/img/profile/profile-square-3.webp" alt="Profile Image" class="img-fluid">
+                </div>
+                <div class="profile-badge">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="profile-content">
+                <h3>AIMA Research Group</h3>
+                <p class="profession">AI in Medical Applications</p>
+
+                <div class="contact-links">
+                  <a href="mailto:your_email@institution.edu" class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    your_email@institution.edu
+                  </a>
+                  <a href="#" class="contact-item">
+                    <i class="bi bi-geo-alt"></i>
+                    City, Country
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">About AIMA</span>
+                <h2>Advancing Trustworthy AI for Healthcare</h2>
+              </div>
+
+              <div class="description">
+                <p>Our lab focuses on advancing artificial intelligence methods for scientific discovery and real-world impact. We develop principled machine learning and deep learning approaches for challenging healthcare settings.</p>
+
+                <p>Key challenges include annotation scarcity, domain shift, subpopulation imbalance, uncertainty, and clinically realistic deployment constraints.</p>
+              </div>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-number">3</div>
+                  <div class="stat-label">Core Research Themes</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">4+</div>
+                  <div class="stat-label">Active Collaborations</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">100%</div>
+                  <div class="stat-label">Focus on Clinical Impact</div>
+                </div>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Specialization</span>
+                    <span class="detail-value">Medical AI &amp; Robust Learning</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Approach</span>
+                    <span class="detail-value">Theory-grounded and translational</span>
+                  </div>
+                </div>
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Domain</span>
+                    <span class="detail-value">Medical imaging and clinical AI</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Methods</span>
+                    <span class="detail-value">ML, DL, optimization, robustness</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-section">
+                <a href="#resume" class="btn btn-primary">
+                  <i class="bi bi-download"></i>
+                  View Publications
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                  <i class="bi bi-chat-dots"></i>
+                  Contact the Lab
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="stats-wrapper">
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
+                <div class="icon-wrapper">
+                  <i class="bi bi-emoji-smile"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Selected Publications</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-wrapper">
+                  <i class="bi bi-journal-richtext"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Active Projects</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
+                <div class="icon-wrapper">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Collaborating Institutions</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon-wrapper">
+                  <i class="bi bi-people"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Team Members</p>
+              </div><!-- End Stats Item -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Research Interests</h2>
+        <p>Core themes and technical directions in our group.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>Learning Under Imperfect Supervision</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Limited and noisy annotations</h4>
+                    <span class="skill-percentage">95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Weak supervision, label noise learning, and robust training objectives.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Semi/self/few-shot learning</h4>
+                    <span class="skill-percentage">90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Data-efficient representation learning for clinically realistic datasets.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Uncertainty quantification</h4>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Calibration, confidence estimation, and decision support reliability.</div>
+                </div>
+              </div>
+            </div><!-- End Frontend Skills -->
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3>Medical Image Computing and Translation</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Segmentation and reconstruction</h4>
+                    <span class="skill-percentage">90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">2D/3D analysis across MRI, CT, ultrasound, and microscopy.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Foundation models in medical imaging</h4>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Pretraining, adaptation, and transfer for medical tasks.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Clinical robustness and deployment</h4>
+                    <span class="skill-percentage">88%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Benchmarking, domain shift analysis, and translational evaluation.</div>
+                </div>
+              </div>
+            </div><!-- End Backend Skills -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Publications</h2>
+        <p>Selected outputs from the group. Replace placeholders below with your current papers and links.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
           <div class="col-lg-4">
-            <div class="card shadow-sm">
-              <div class="card-body">
-                <h2 class="h5">Quick Links</h2>
-                <ul class="list-unstyled mb-0">
-                  <li><a href="#research">Research Interests</a></li>
-                  <li><a href="#publications">Publications</a></li>
-                  <li><a href="#people">Team</a></li>
-                  <li><a href="#teaching">Join Us</a></li>
+            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
+              <div class="profile-img mb-4">
+                <img src="assets/img/profile/profile-square-2.webp" alt="Profile" class="img-fluid rounded">
+              </div>
+
+              <h3>Research Summary</h3>
+              <p>We build robust and data-efficient AI methods for medical imaging and clinical decision support, combining principled modeling with rigorous real-world evaluation.</p>
+
+              <h3 class="mt-4">Contact Information</h3>
+              <ul class="contact-info list-unstyled">
+                <li><i class="bi bi-geo-alt"></i> University / Hospital, City, Country</li>
+                <li><i class="bi bi-envelope"></i> your_email@institution.edu</li>
+                <li><i class="bi bi-linkedin"></i> LinkedIn profile link</li>
+                <li><i class="bi bi-mortarboard"></i> Google Scholar profile link</li>
+              </ul>
+
+              <div class="skills-animation mt-4">
+                <h3>Research Focus</h3>
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Robust Learning</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Foundation Models</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Medical Imaging</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Clinical Translation</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-journal-text me-2"></i>Selected Papers</h3>
+
+              <div class="resume-item">
+                <h4>Paper Title One</h4>
+                <h5>2026</h5>
+                <p class="company"><i class="bi bi-building"></i> Conference / Journal Name</p>
+                <ul>
+                  <li>Author A, Author B, Author C</li>
+                  <li><strong>Links:</strong> PDF | Code | DOI</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Paper Title Two</h4>
+                <h5>2025</h5>
+                <p class="company"><i class="bi bi-building"></i> Conference / Journal Name</p>
+                <ul>
+                  <li>Author A, Author B, Author C</li>
+                  <li><strong>Links:</strong> PDF | Code | DOI</li>
                 </ul>
               </div>
             </div>
+
+            <!-- Education Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <h3><i class="bi bi-people me-2"></i>Team</h3>
+
+              <div class="resume-item">
+                <h4>Current Members</h4>
+                <h5>2026</h5>
+                <p class="company"><i class="bi bi-building"></i> AIMA Research Group</p>
+                <p>Member Name - Role; Member Name - Role.</p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Collaborators</h4>
+                <h5>Ongoing</h5>
+                <p class="company"><i class="bi bi-building"></i> Partner Institutions</p>
+                <p>Collaborator Name - Institution; Collaborator Name - Institution.</p>
+              </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
+              <h3><i class="bi bi-megaphone me-2"></i>News</h3>
+
+              <div class="resume-item">
+                <h4>New paper accepted at Conference Name</h4>
+                <h5>Mar 2026</h5>
+              </div>
+
+              <div class="resume-item">
+                <h4>Open call for prospective PhD students</h4>
+                <h5>Jan 2026</h5>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
-    </header>
 
-    <main>
-      <section id="research" class="py-5 section-alt">
-        <div class="container">
-          <h2 class="section-title">Research Interests</h2>
-          <div class="row g-4">
-            <div class="col-md-4">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                  <h3 class="h5">Robust &amp; Data-Efficient Learning in Medical AI</h3>
-                  <p class="mb-0">
-                    We develop robust and data-efficient AI methods for healthcare, focusing on
-                    learning under imperfect and limited supervision such as annotation scarcity,
-                    domain shift, and noisy acquisition conditions.
-                  </p>
-                </div>
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>Selected project directions and representative work streams from the group.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row">
+            <div class="col-lg-3 filter-sidebar">
+              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
+                <ul class="portfolio-filters isotope-filters">
+                  <li data-filter="*" class="filter-active">All</li>
+                  <li data-filter=".filter-photography">Robust Learning</li>
+                  <li data-filter=".filter-design">Foundation Models</li>
+                  <li data-filter=".filter-automotive">Medical Imaging</li>
+                  <li data-filter=".filter-nature">Clinical Translation</li>
+                </ul>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                  <h3 class="h5">Medical Image Computing &amp; Foundation Models</h3>
-                  <p class="mb-0">
-                    We study segmentation, reconstruction, registration, and classification across
-                    MRI, CT, ultrasound, and microscopy, with emphasis on foundation models and
-                    multimodal learning.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                  <h3 class="h5">Translating AI into Clinical Impact</h3>
-                  <p class="mb-0">
-                    Through rigorous benchmarking and principled model design, we bridge machine
-                    learning innovation and real-world clinical deployment with reliable and
-                    interpretable systems.
-                  </p>
-                </div>
-              </div>
+
+            <div class="col-lg-9">
+              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-portrait-1.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Robust Learning</span>
+                        <h4>Learning with Noisy and Limited Labels</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-portrait-1.webp" class="glightbox" title="Capturing Moments"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Foundation Models</span>
+                        <h4>Medical Foundation Model Adaptation</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox" title="Woodcraft Design"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automotive">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-portrait-2.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Medical Imaging</span>
+                        <h4>3D Segmentation and Reconstruction</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-portrait-2.webp" class="glightbox" title="Classic Beauty"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-nature">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-portrait-4.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Clinical Translation</span>
+                        <h4>Benchmarking for Deployment Readiness</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-portrait-4.webp" class="glightbox" title="Natural Growth"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Robust Learning</span>
+                        <h4>Uncertainty-Aware Clinical AI</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox" title="Urban Stories"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-6.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Foundation Models</span>
+                        <h4>Multimodal Imaging-Language Integration</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox" title="Digital Experience"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+              </div><!-- End Portfolio Container -->
             </div>
           </div>
-        </div>
-      </section>
 
-      <section id="publications" class="py-5">
-        <div class="container">
-          <h2 class="section-title">Publications</h2>
-          <ol class="publication-list">
-            <li>
-              Author A, Author B, <strong>AIMA Team</strong>. <em>Paper Title.</em> Conference,
-              2026.
-              <a href="#">PDF</a> | <a href="#">Code</a> | <a href="#">DOI</a>
-            </li>
-            <li>
-              Author A, Author B, <strong>AIMA Team</strong>. <em>Paper Title.</em> Journal, 2025.
-              <a href="#">PDF</a> | <a href="#">Code</a> | <a href="#">DOI</a>
-            </li>
-            <li>
-              <strong>AIMA Team</strong>, Author B. <em>Paper Title.</em> Workshop, 2024.
-              <a href="#">PDF</a> | <a href="#">Slides</a>
-            </li>
-          </ol>
         </div>
-      </section>
 
-      <section id="people" class="py-5 section-alt">
-        <div class="container">
-          <h2 class="section-title">Team</h2>
-          <div class="row g-4">
-            <div class="col-md-6">
-              <h3 class="h5">Current Members</h3>
-              <ul>
-                <li>Member Name - Role</li>
-                <li>Member Name - Role</li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <h3 class="h5">Collaborators</h3>
-              <ul>
-                <li>Collaborator Name - Institution / Hospital</li>
-                <li>Collaborator Name - Institution / Hospital</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="teaching" class="py-5">
-        <div class="container">
-          <h2 class="section-title">Join Us</h2>
-          <ul>
-            <li>We welcome motivated students interested in AI for healthcare.</li>
-            <li>Open positions: PhD, MSc, and visiting students.</li>
-            <li>Please email a short statement, CV, and transcript.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="news" class="py-5 section-alt">
-        <div class="container">
-          <h2 class="section-title">News</h2>
-          <ul>
-            <li>[Mar 2026] New paper accepted at Conference Name.</li>
-            <li>[Jan 2026] Open call for prospective PhD students.</li>
-            <li>[Nov 2025] Invited talk on robust medical foundation models.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="contact" class="py-5">
-        <div class="container">
-          <h2 class="section-title">Contact</h2>
-          <p class="mb-1"><strong>Email:</strong> your_email@institution.edu</p>
-          <p class="mb-1"><strong>Office:</strong> Building, Room, University / Hospital</p>
-          <p class="mb-0"><strong>Address:</strong> City, Country</p>
-        </div>
-      </section>
-    </main>
-
-    <footer class="py-4 border-top">
-      <div class="container d-flex flex-wrap justify-content-between gap-2">
-        <p class="mb-0">© <span id="year"></span> AIMA Research Group</p>
-        <p class="mb-0 text-muted">Built with Bootstrap for GitHub Pages</p>
       </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </body>
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Research Themes</h2>
+        <p>How we connect machine learning methodology with practical clinical needs.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="service-header">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-md-12">
+              <div class="service-intro">
+                <h2 class="service-heading">
+                  <div>Trustworthy AI</div>
+                  <div><span>for healthcare impact</span></div>
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="service-summary">
+                <p>
+                  We build methods that are mathematically grounded, empirically rigorous, and directly relevant to clinical environments.
+                </p>
+                <a href="#resume" class="service-btn">
+                  See Publications
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-palette"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Robust <span>learning</span>
+                </a>
+              </h3>
+              <p>
+                Learning with limited labels, weak supervision, and noisy annotations for clinically realistic datasets.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-gem"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Foundation <span>models</span>
+                </a>
+              </h3>
+              <p>
+                Pretraining and adaptation of medical foundation models for robust downstream performance.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-megaphone"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Domain <span>adaptation</span>
+                </a>
+              </h3>
+              <p>
+                Methods addressing domain shift, subpopulation imbalance, and generalization under acquisition variations.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Imaging <span>computing</span>
+                </a>
+              </h3>
+              <p>
+                Segmentation, reconstruction, registration, and classification across MRI, CT, ultrasound, and microscopy.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Uncertainty <span>estimation</span>
+                </a>
+              </h3>
+              <p>
+                Calibration and uncertainty-aware prediction to improve reliability and assist clinical decision-making.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-camera-video"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Clinical <span>translation</span>
+                </a>
+              </h3>
+              <p>
+                Benchmarking protocols and deployment-oriented evaluation to bridge methods and real-world care settings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Join Us</h2>
+        <p>We welcome motivated students and collaborators interested in trustworthy AI for healthcare.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="testimonial-masonry">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Prospective students should email a short statement of purpose describing research interests and goals.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-7.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Application Tip</h3>
+                  <span class="position">Prospective Students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Please include CV, transcript, and available time frame. Prior experience in machine learning or medical imaging is a plus.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-7.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Required Documents</h3>
+                  <span class="position">Admissions Materials</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>We also welcome clinicians and engineers for interdisciplinary collaboration and translational projects.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-8.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Collaboration</h3>
+                  <span class="position">Academic and Clinical Partners</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Current themes include robust learning, foundation models, and uncertainty-aware clinical AI systems.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-8.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Research Scope</h3>
+                  <span class="position">Group Focus</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Open positions are typically available for PhD, MSc, and visiting students depending on funding and supervision capacity.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-9.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Open Positions</h3>
+                  <span class="position">Join AIMA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>For updates on calls and deadlines, check this page regularly or contact the lab directly by email.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-13.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Stay Updated</h3>
+                  <span class="position">Latest Opportunities</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>We welcome student applications and collaboration opportunities in AI for healthcare.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Contact Info</h3>
+              <p>For prospective students, please send your CV, transcript, and research interests by email.</p>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Location</h4>
+                  <p>University / Hospital</p>
+                  <p>City, Country</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Open Positions</h4>
+                  <p>PhD, MSc, and visiting students</p>
+                  <p>Collaborative projects welcome</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>your_email@institution.edu</p>
+                  <p>your_group@institution.edu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Message the Group</h3>
+              <p>GitHub Pages is static hosting; configure a third-party form endpoint or use direct email links.</p>
+
+              <form action="#" method="post" class="php-email-form">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Message received. Please also contact us by email for faster response.</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">AIMA Research Group</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
