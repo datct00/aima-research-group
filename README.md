@@ -1,6 +1,6 @@
-# Academic Homepage Starter
+# aima-research-group
 
-This repository is a simple Bootstrap-based personal academic homepage prepared for GitHub Pages.
+This repository contains a Bootstrap-based academic research group homepage prepared for GitHub Pages.
 
 ## Quick Start
 
@@ -15,8 +15,3 @@ This repository is a simple Bootstrap-based personal academic homepage prepared 
 2. Set source to `Deploy from a branch`.
 3. Select branch `main` and folder `/ (root)`.
 4. Save and wait for deployment.
-
-## Notes
-
-- This is static HTML/CSS and works directly on GitHub Pages.
-- If you use external form handlers, configure them separately.
