@@ -1,0 +1,47 @@
+:root {
+  --brand-primary: #0d6efd;
+  --section-alt: #f7f9fc;
+}
+
+body {
+  color: #1a1a1a;
+  line-height: 1.65;
+}
+
+.hero {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+.py-lg-6 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.section-alt {
+  background-color: var(--section-alt);
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.publication-list li {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+footer {
+  background: #fff;
+}
