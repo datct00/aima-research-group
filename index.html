@@ -9,8 +9,8 @@
   <meta name="keywords" content="AIMA, medical AI, machine learning, deep learning, medical imaging">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/portfolio/logo.png" rel="icon">
+  <link href="assets/img/portfolio/logo.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -44,11 +44,13 @@
     <div class="header-container d-flex flex-column align-items-start">
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-journal-text navicon"></i> Publications</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
-          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Research</a></li>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>HOME</a></li>
+          <li><a href="#news"><i class="bi bi-megaphone navicon"></i> News</a></li>
+          <li><a href="#research"><i class="bi bi-hdd-stack navicon"></i> Research</a></li>
+          <li><a href="publications.html"><i class="bi bi-journal-text navicon"></i> Publications</a></li>
+          <li><a href="#team"><i class="bi bi-people navicon"></i> TEAM</a></li>
+          <li><a href="#blog"><i class="bi bi-pencil-square navicon"></i> Blog</a></li>
+          <li><a href="#join-us"><i class="bi bi-person-plus navicon"></i> Join US</a></li>
           <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
         </ul>
       </nav>
@@ -86,7 +88,7 @@
                 <p class="description">Our lab develops principled machine learning methods for scientific discovery and real-world clinical impact, with emphasis on robustness, data efficiency, and generalization.</p>
 
                 <div class="hero-actions">
-                  <a href="#resume" class="btn btn-primary">View Publications</a>
+                  <a href="publications.html" class="btn btn-primary">View Publications</a>
                   <a href="#contact" class="btn btn-outline">Join or Collaborate</a>
                 </div>
 
@@ -102,7 +104,7 @@
               <div class="hero-visual">
                 <div class="profile-container">
                   <div class="profile-background"></div>
-                  <img src="assets/img/profile/profile-2.webp" alt="AIMA Research Group" class="profile-image">
+                  <img src="assets/img/portfolio/logo.png" alt="AIMA Research Group logo" class="profile-image">
                 </div>
               </div>
             </div>
@@ -200,7 +202,7 @@
               </div>
 
               <div class="cta-section">
-                <a href="#resume" class="btn btn-primary">
+                <a href="publications.html" class="btn btn-primary">
                   <i class="bi bi-download"></i>
                   View Publications
                 </a>
@@ -217,52 +219,75 @@
 
     </section><!-- /About Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
+    <!-- News Section -->
+    <section id="news" class="section light-background">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="stats-wrapper">
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
-                <div class="icon-wrapper">
-                  <i class="bi bi-emoji-smile"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Selected Publications</p>
-              </div><!-- End Stats Item -->
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
-                <div class="icon-wrapper">
-                  <i class="bi bi-journal-richtext"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Active Projects</p>
-              </div><!-- End Stats Item -->
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
-                <div class="icon-wrapper">
-                  <i class="bi bi-headset"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Collaborating Institutions</p>
-              </div><!-- End Stats Item -->
-
-              <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
-                <div class="icon-wrapper">
-                  <i class="bi bi-people"></i>
-                </div>
-                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Team Members</p>
-              </div><!-- End Stats Item -->
-            </div>
-          </div>
-        </div>
-
+      <div class="container section-title" data-aos="fade-up">
+        <h2>News</h2>
+        <p>Latest announcements from AIMA Research Group.</p>
       </div>
 
-    </section><!-- /Stats Section -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="service-card h-100 position-relative z-1" data-aos="fade-up" data-aos-delay="120">
+              <div class="service-icon">
+                <i class="bi bi-journal-check"></i>
+              </div>
+              <h3>Paper Accepted at MICCAI 2026</h3>
+              <p class="mb-2"><strong>Date:</strong> Mar 27, 2026</p>
+              <p>
+                Our paper on robust adaptation for medical image segmentation was accepted to MICCAI 2026.
+                We will share the preprint, code, and talk slides soon.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-lg-6">
+            <article class="service-card h-100 position-relative z-1" data-aos="fade-up" data-aos-delay="180">
+              <div class="service-icon">
+                <i class="bi bi-person-plus"></i>
+              </div>
+              <h3>New Member Joined the Lab</h3>
+              <p class="mb-2"><strong>Date:</strong> Mar 15, 2026</p>
+              <p>
+                We welcome a new MSc student joining AIMA to work on uncertainty-aware multimodal learning
+                for clinical decision support.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-lg-6">
+            <article class="service-card h-100 position-relative z-1" data-aos="fade-up" data-aos-delay="240">
+              <div class="service-icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3>Open Recruitment for PhD Students</h3>
+              <p class="mb-2"><strong>Date:</strong> Jan 10, 2026</p>
+              <p>
+                We are recruiting PhD and MSc students interested in robust medical AI, foundation models,
+                and clinically deployable machine learning.
+              </p>
+            </article>
+          </div>
+
+          <div class="col-lg-6">
+            <article class="service-card h-100 position-relative z-1" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-icon">
+                <i class="bi bi-megaphone"></i>
+              </div>
+              <h3>Invited Talk on Foundation Models</h3>
+              <p class="mb-2"><strong>Date:</strong> Nov 05, 2025</p>
+              <p>
+                AIMA presented recent findings on robustness evaluation of medical foundation models at an
+                invited seminar with academic and hospital collaborators.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /News Section -->
 
     <!-- Skills Section -->
     <section id="skills" class="skills section">
@@ -362,7 +387,7 @@
     </section><!-- /Skills Section -->
 
     <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <section id="publications" class="resume section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -465,7 +490,7 @@
 
             <!-- Education Section -->
             <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
-              <h3><i class="bi bi-people me-2"></i>Team</h3>
+              <h3 id="team"><i class="bi bi-people me-2"></i>Team</h3>
 
               <div class="resume-item">
                 <h4>Current Members</h4>
@@ -504,12 +529,12 @@
     </section><!-- /Resume Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="blog" class="portfolio section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
-        <p>Selected project directions and representative work streams from the group.</p>
+        <h2>Blog</h2>
+        <p>Highlights, technical notes, and lab updates.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -520,11 +545,11 @@
             <div class="col-lg-3 filter-sidebar">
               <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
                 <ul class="portfolio-filters isotope-filters">
-                  <li data-filter="*" class="filter-active">All</li>
-                  <li data-filter=".filter-photography">Robust Learning</li>
-                  <li data-filter=".filter-design">Foundation Models</li>
-                  <li data-filter=".filter-automotive">Medical Imaging</li>
-                  <li data-filter=".filter-nature">Clinical Translation</li>
+                  <li data-filter="*" class="filter-active">All Posts</li>
+                  <li data-filter=".filter-photography">Methods</li>
+                  <li data-filter=".filter-design">Papers</li>
+                  <li data-filter=".filter-automotive">Tutorials</li>
+                  <li data-filter=".filter-nature">Lab Life</li>
                 </ul>
               </div>
             </div>
@@ -537,7 +562,7 @@
                     <img src="assets/img/portfolio/portfolio-portrait-1.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Robust Learning</span>
+                        <span class="category">Methods</span>
                         <h4>Learning with Noisy and Limited Labels</h4>
                         <div class="portfolio-links">
                           <a href="assets/img/portfolio/portfolio-portrait-1.webp" class="glightbox" title="Capturing Moments"><i class="bi bi-plus-lg"></i></a>
@@ -553,7 +578,7 @@
                     <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Foundation Models</span>
+                        <span class="category">Papers</span>
                         <h4>Medical Foundation Model Adaptation</h4>
                         <div class="portfolio-links">
                           <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox" title="Woodcraft Design"><i class="bi bi-plus-lg"></i></a>
@@ -569,7 +594,7 @@
                     <img src="assets/img/portfolio/portfolio-portrait-2.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Medical Imaging</span>
+                        <span class="category">Tutorials</span>
                         <h4>3D Segmentation and Reconstruction</h4>
                         <div class="portfolio-links">
                           <a href="assets/img/portfolio/portfolio-portrait-2.webp" class="glightbox" title="Classic Beauty"><i class="bi bi-plus-lg"></i></a>
@@ -585,7 +610,7 @@
                     <img src="assets/img/portfolio/portfolio-portrait-4.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Clinical Translation</span>
+                        <span class="category">Lab Life</span>
                         <h4>Benchmarking for Deployment Readiness</h4>
                         <div class="portfolio-links">
                           <a href="assets/img/portfolio/portfolio-portrait-4.webp" class="glightbox" title="Natural Growth"><i class="bi bi-plus-lg"></i></a>
@@ -601,7 +626,7 @@
                     <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Robust Learning</span>
+                        <span class="category">Methods</span>
                         <h4>Uncertainty-Aware Clinical AI</h4>
                         <div class="portfolio-links">
                           <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox" title="Urban Stories"><i class="bi bi-plus-lg"></i></a>
@@ -617,7 +642,7 @@
                     <img src="assets/img/portfolio/portfolio-6.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Foundation Models</span>
+                        <span class="category">Papers</span>
                         <h4>Multimodal Imaging-Language Integration</h4>
                         <div class="portfolio-links">
                           <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox" title="Digital Experience"><i class="bi bi-plus-lg"></i></a>
@@ -639,7 +664,7 @@
     </section><!-- /Portfolio Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="research" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -664,7 +689,7 @@
                 <p>
                   We build methods that are mathematically grounded, empirically rigorous, and directly relevant to clinical environments.
                 </p>
-                <a href="#resume" class="service-btn">
+                <a href="publications.html" class="service-btn">
                   See Publications
                   <i class="bi bi-arrow-right"></i>
                 </a>
@@ -789,7 +814,7 @@
     </section><!-- /Services Section -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
+    <section id="join-us" class="testimonials section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
